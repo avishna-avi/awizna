@@ -1,6 +1,9 @@
 ### rental business
 
-rental business
+Rental Business (Frappe App)
+
+This repository contains the Rental Business Frappe application under the Awizna organization.
+It is used for managing rental workflows such as contracts, billing, returns, and maintenance.
 
 ### Installation
 
@@ -31,3 +34,5 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+# awizna
+frappe apps
