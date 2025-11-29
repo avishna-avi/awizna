@@ -43,6 +43,10 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
+doctype_js = {
+    "Opportunity":"rental_business/custom_scripts/opportunity/opportunity.js",
+}
+
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -82,13 +86,13 @@ app_license = "mit"
 # Installation
 # ------------
 
-# before_install = "rental_business.install.before_install"
-# after_install = "rental_business.install.after_install"
+after_install = "rental_business.setup.after_install"
+after_migrate = "rental_business.setup.after_migrate"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "rental_business.uninstall.before_uninstall"
+before_uninstall = "rental_business.setup.before_uninstall"
 # after_uninstall = "rental_business.uninstall.after_uninstall"
 
 # Integration Setup

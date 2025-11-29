@@ -1,0 +1,87 @@
+{
+ "charts": [
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Sales Order Trends"
+  },
+  {
+   "chart_name": "Item-wise Annual Sales",
+   "label": "Item-wise Annual Sales"
+  }
+ ],
+ "content": "[{\"id\":\"RRX-qTl922\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">The Hire store</span>\",\"col\":12}},{\"id\":\"gaOFF1_-CC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lead\",\"col\":3}},{\"id\":\"v_SQlSkCT4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Opportunity\",\"col\":3}},{\"id\":\"dkKtjHb_kO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hire Agreement\",\"col\":3}},{\"id\":\"QZ41clwXm8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"jBI2o6qJfn\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Lead\",\"col\":4}},{\"id\":\"BfVMaFkVUl\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Opportunity\",\"col\":4}},{\"id\":\"zPysrlrfBF\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Hire Agreement\",\"col\":4}},{\"id\":\"TTa8nCPLlI\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":12}},{\"id\":\"fGCcmF8_Ah\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Item-wise Annual Sales\",\"col\":12}}]",
+ "creation": "2025-11-29 05:22:36.763797",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "heart",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "The Hire store",
+ "links": [],
+ "modified": "2025-11-29 05:32:05.267720",
+ "modified_by": "Administrator",
+ "module": "rental business",
+ "name": "The Hire store",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Lead",
+   "label": "Lead",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Opportunity",
+   "label": "Opportunity",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Hire Agreement",
+   "label": "Hire Agreement",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Lead",
+   "link_to": "Lead",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Opportunity",
+   "link_to": "Opportunity",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Hire Agreement",
+   "link_to": "Hire Agreement",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Customer",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "The Hire store"
+}
